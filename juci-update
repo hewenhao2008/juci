@@ -91,6 +91,6 @@ echo "<!doctype html>
 </body>
 </html>" > ${INDEX}
 
-if [ "$MODE" == "RELEASE" ]; then
+#if [ "$MODE" == "RELEASE" ]; then
 	#gzip -f ${INDEX}
-fi
+#fi
